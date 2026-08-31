@@ -1,0 +1,14 @@
+const mongoose = require('mongoose');
+
+const SkillSchema = new mongoose.Schema(
+  {
+    name: {
+      type: String,
+      required: [true, 'Skill name is required'],
+      trim: true,
+    },
+  },
+  { timestamps: true }
+);
+
+module.exports = mongoose.model('Skill', SkillSchema);

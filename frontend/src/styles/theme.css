@@ -128,5 +128,5 @@ a:hover {
 }
 
 ::selection {
-  background-color: var(--color-coral-light);
+  background-color: var(--color-purple-light);
 }

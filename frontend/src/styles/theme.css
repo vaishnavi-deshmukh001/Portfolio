@@ -7,15 +7,15 @@
    ============================================ */
 
 :root {
-  --color-bg: #F4F7F7;            /* cool, slightly blue-grey background */
+  --color-bg: #FDF8F8;
   --color-surface: #FFFFFF;
-  --color-ink-900: #0E2B2E;       /* deep ink-teal (structure, nav) */
-  --color-ink-700: #1F4448;
-  --color-ink-500: #5A7679;       /* muted body text */
-  --color-coral: #E85D4C;         /* primary accent (warm coral) */
-  --color-coral-dark: #C8462F;
-  --color-coral-light: #FBE2DC;
-  --color-border: #DCE5E5;
+  --color-ink-900: #4A0E1A;
+  --color-ink-700: #6B1A28;
+  --color-ink-500: #9B4D5A;
+  --color-coral: #9B2335;
+  --color-coral-dark: #7A1829;
+  --color-coral-light: #FCE7EA;
+  --color-border: #F5D0D5;
   --color-success: #2E7D5B;
   --color-danger: #C8462F;
 
@@ -24,8 +24,8 @@
 
   --radius-sm: 2px;
   --radius-md: 6px;
-  --shadow-card: 0 1px 2px rgba(14, 43, 46, 0.05);
-  --shadow-elevated: 0 8px 24px rgba(14, 43, 46, 0.12);
+  --shadow-card: 0 1px 2px rgba(74, 14, 26, 0.05);
+  --shadow-elevated: 0 8px 24px rgba(74, 14, 26, 0.12);
 }
 
 * {
@@ -84,8 +84,6 @@ a:hover {
 }
 
 .btn-amber {
-  /* shared class name across both projects for the form/admin code,
-     but repainted with Project 2's coral accent */
   background-color: var(--color-coral);
   border: 1px solid var(--color-coral);
   color: #fff;
@@ -140,3 +138,4 @@ a:hover {
 ::selection {
   background-color: var(--color-coral-light);
 }
+

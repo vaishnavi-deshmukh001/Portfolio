@@ -1,23 +1,29 @@
 :root {
-  --color-bg: #FDF8F8;
+  /* Professional Navy + Blue Color Palette */
+  --color-bg: #F8FAFC;
   --color-surface: #FFFFFF;
-  --color-ink-900: #4A0E1A;
-  --color-ink-700: #6B1A28;
-  --color-ink-500: #9B4D5A;
-  --color-coral: #9B2335;
-  --color-coral-dark: #7A1829;
-  --color-coral-light: #FCE7EA;
-  --color-border: #F5D0D5;
-  --color-success: #2E7D5B;
-  --color-danger: #C8462F;
+
+  --color-ink-900: #0F172A;
+  --color-ink-700: #334155;
+  --color-ink-500: #64748B;
+
+  --color-coral: #2563EB;
+  --color-coral-dark: #1D4ED8;
+  --color-coral-light: #EFF6FF;
+
+  --color-border: #E2E8F0;
+
+  --color-success: #15803D;
+  --color-danger: #DC2626;
 
   --font-display: 'Poppins', 'Segoe UI', system-ui, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   --radius-sm: 2px;
   --radius-md: 6px;
-  --shadow-card: 0 1px 2px rgba(74, 14, 26, 0.05);
-  --shadow-elevated: 0 8px 24px rgba(74, 14, 26, 0.12);
+
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-elevated: 0 8px 24px rgba(15, 23, 42, 0.12);
 }
 
 * {
@@ -32,7 +38,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-display);
   color: var(--color-ink-900);
   font-weight: 700;
@@ -46,7 +57,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-purple-dark);
+  color: var(--color-coral-dark);
 }
 
 .section {
@@ -128,5 +139,5 @@ a:hover {
 }
 
 ::selection {
-  background-color: var(--color-purple-light);
+  background-color: var(--color-coral-light);
 }

@@ -1,11 +1,3 @@
-/* ============================================
-   PROJECT 2 THEME: "INK & TEAL"
-   A crisp, modern, all-sans-serif palette:
-   deep ink-teal for structure, warm coral as
-   the single accent, cool white background.
-   Distinct from Project 1's warm serif look.
-   ============================================ */
-
 :root {
   --color-bg: #FDF8F8;
   --color-surface: #FFFFFF;
@@ -138,4 +130,3 @@ a:hover {
 ::selection {
   background-color: var(--color-coral-light);
 }
-
